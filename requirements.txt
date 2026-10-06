@@ -1,0 +1,9 @@
+# Google Colab already ships torch, numpy, pandas, matplotlib and tqdm.
+# Do NOT reinstall torch on Colab - it can replace the CUDA build with a mismatched one.
+# These pins are for running locally.
+torch>=2.3
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+tqdm>=4.65
+kaggle>=1.6
